@@ -20,8 +20,6 @@ Here is an example, using 3 as the key to add to a character's ASCII value to ge
 
 ![2320 Final Clean](https://github.com/bell-kevin/finalProject2320cPlusPlus/blob/main/match.PNG)      
 
-![2320 Final Bad](https://github.com/bell-kevin/finalProject2320cPlusPlus/blob/main/NOTmatch.PNG)
-
 Your project should have functions to (a) read a file, (b) substitute characters using a key value, (c) split one string into two strings, (d) merge two strings into one, interleaving them together, (e) reverse a string using a stack. These functions must work for both encrypting and decrypting processes. For example, the substitution function can add the key value to a character to encrypt, and can also add a negative version of the key value, thus subtracting that key value to decrypt. The key value must be in a variable, not hard-coded in the substitution function.
 
 The transformation takes a string and splits it into 2 strings, based on the position of each character in the string. If the string had 5 characters, they are in positions 0, 1, 2, 3, and 4. Those characters in even positions (0, 2, and 4) go into the "even" string, and those characters in odd positions (1 and 3) go into the "odd" string. When decrypting, merging those files together needs to interleave the characters -- take one from the even string, then one from the odd string, then one from the even string, and so on. That should produce the same sequence of characters as the original string.
@@ -29,6 +27,8 @@ The transformation takes a string and splits it into 2 strings, based on the pos
 Do not close the files for the 2 output files after writing the even and odd strings to them. Use the same files in the decrypting portion of the program, reading in the data in the file to the program.
 
 You may use your own data for the original string, as long as it is at least 20 characters long. Run the program twice, once with a string that has an even number of characters, and once with a string that has an uneven number of characters. Take screenshots of both.
+
+![2320 Final Bad](https://github.com/bell-kevin/finalProject2320cPlusPlus/blob/main/NOTmatch.PNG)
 
 Submission: screenshots and the root folder of the project in a zipped folder
 
