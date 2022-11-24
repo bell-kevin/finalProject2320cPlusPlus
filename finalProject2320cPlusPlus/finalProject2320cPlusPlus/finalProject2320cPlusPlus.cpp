@@ -124,16 +124,24 @@ int main() {
 	//substitute each character by subtracting 3 from the ASCII value of the character.
 	string decryptedSubstitutionStringFile1 = substitution(reversedFile1Contents, -3);
 	string decryptedSubstitutionStringFile2 = substitution(reversedFile2Contents, -3);
-	//merge the 2 strings into one string, interweaving them together.
+	//merge the 2 strings into one string, interweaving them together
 	string decryptedMergedString = mergeString(decryptedSubstitutionStringFile1, decryptedSubstitutionStringFile2);
-	cout << "decrypted: " << decryptedMergedString << endl;
-	//Check if the decrypted string matches the original string.
-	if (decryptedMergedString == fileContents) {
-		cout << "Decrypted and Original strings match!\n";
+	//remove the \0 characters from the string
+	string decryptedString;
+	for (int i = 0; i < decryptedMergedString.length(); i++) {
+		if (decryptedMergedString[i] != '\0') {
+			decryptedString += decryptedMergedString[i];
+		}
+	} // end for loop
+	//output the decrypted string to the screen
+	cout << "decrypted: " << decryptedString << endl;
+	//check if that decrypted string matches the original string.
+	if (decryptedString == fileContents) {
+		cout << "decrypted string matches original string\n";
 	}
 	else {
-		cout << "The strings do not match.\n";
+		cout << "decrypted string does not match original string\n";
 	}
 	system("pause");
 	return 0;
-}
+} //end main function
