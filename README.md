@@ -1,4 +1,4 @@
-# Final Project SDEV2320 C++
+# Final Project SDEV2320 C++ 2
 
 This final project demonstrates your competency in skills learned in this course. You must complete this exercise on your own, without any help from an instructor or another student. If you get stuck, go back through the relevant sections in the book and previous assignments -- everything you need to do in this exercise has been covered in this course.
 
