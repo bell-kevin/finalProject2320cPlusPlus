@@ -1,3 +1,5 @@
+<a name="readme-top"></a>
+
 # Final Project SDEV2320 C++ 2
 
 This final project demonstrates your competency in skills learned in this course. You must complete this exercise on your own, without any help from an instructor or another student. If you get stuck, go back through the relevant sections in the book and previous assignments -- everything you need to do in this exercise has been covered in this course.
@@ -52,3 +54,5 @@ without our permission.  We do not consent to GitHub's use of this project's
 code in Copilot.
 
 ![Logo of the GiveUpGitHub campaign](https://sfconservancy.org/img/GiveUpGitHub.png)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
