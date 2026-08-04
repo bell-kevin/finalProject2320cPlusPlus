@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-# Final Project SDEV2320 C++ 2
+# Final Project S DEV 2320 C++ 2
 
 This final project demonstrates your competency in skills learned in this course. You must complete this exercise on your own, without any help from an instructor or another student. If you get stuck, go back through the relevant sections in the book and previous assignments -- everything you need to do in this exercise has been covered in this course.
 
@@ -37,7 +37,7 @@ Submission: screenshots and the root folder of the project in a zipped folder
 == We're Using GitHub Under Protest ==
 
 This project is currently hosted on GitHub.  This is not ideal; GitHub is a
-proprietary, trade-secret system that is not Free and Open Souce Software
+proprietary, trade-secret system that is not Free and Open Source Software
 (FOSS).  We are deeply concerned about using a proprietary system like GitHub
 to develop our FOSS project. I have a [website](https://bellKevin.me) where the
 project contributors are actively discussing how we can move away from GitHub
